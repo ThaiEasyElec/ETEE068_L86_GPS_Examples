@@ -1,7 +1,7 @@
 #include <TinyGPS++.h>
 #include <SoftwareSerial.h>
 
-static const int RXPin = 0, TXPin = 2;
+static const int RXPin = 2, TXPin = 15;
 static const uint32_t GPSBaud = 9600;
 static const int MAX_SATELLITES = 40;
 static const int PAGE_LENGTH = 40;
